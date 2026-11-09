@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="layout">
+<header class="input">
+    <h1>Inputing information for contact</h1>
+
+   <!form action="URL" method="POST">
+
+    <div style="margin-bottom: 15px;">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required class="input">
+    </div>
+
+  
+    <div style="margin-bottom: 15px;">
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required class="input">
+    </div>
+
+  
+    <div style="margin-bottom: 15px;">
+        <label for="user-phone">Phone Number:</label><br>
+        <input type="tel" id="user-phone" name="phone" required class="input">
+    </div>
+
+  
+    <div style="margin-bottom: 15px;">
+        <label for="subject">Subject:</label><br>
+        <select id="subject" name="subject">
+            <option value="">-- Please choose an option --</option>
+            <option value="general">General Inquiry</option>
+            <option value="support">Technical Support</option>
+            <option value="billing">Billing / Account</option>
+        </select>
+    </div>
+
+    <div style="margin-bottom: 15px;">
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" placeholder="Type your message here..."></textarea>
+    </div>
+
+
+    <div>
+        <button type="submit">Submit Form</button>
+    </div>
+
+</header>
+
+
+<table border="1" cellpadding="8" style="border-collapse: collapse; width: 100%;" class="table">
+    <thead>
+        <!-- Header Row -->
+        <tr style="background-color: #f2f2f2;">
+            <th>Price</th>
+            <th>Date</th>
+            <th>Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Row 1 -->
+        <tr>
+            <td>R2000</td>
+            <td>05 May</td>
+            <td>09:00am to 18:30pm</td>
+        </tr>
+        <!-- Row 2 -->
+        <tr>
+            <td>R3000</td>
+            <td>04 May</td>
+            <td>09:00am to 14:00pm</td>
+        </tr>
+        <!-- Row 3 -->
+        <tr>
+            <td>R100000</td>
+            <td>06 May</td>
+            <td>09:00am to 21:00pm</td>
+        </tr>
+        <!-- Row 4 -->
+        <tr>
+            <td>R50</td>
+            <td>10 May</td>
+            <td>09:00am to 09:15am</td>
+        </tr>
+        <!-- Row 5 -->
+        <tr>
+            <td>R2000</td>
+            <td>May 11</td>
+            <td>09:00am to 15:30am</td>
+        </tr>
+    </tbody>
+</table>
+</!form>
+    
+</body>
+</body>
+</html>
